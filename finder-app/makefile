@@ -1,4 +1,6 @@
+# If CROSS_COMPILE is set, use it as the cross compiler
 CROSS_COMPILE ?=
+
 # Compiler (Uses cross compiler if CROSS_COMPILE is set)
 CC = $(CROSS_COMPILE)gcc
 
